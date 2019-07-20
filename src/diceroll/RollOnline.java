@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import tool.Page;
 /**
  *
- * @author k.matsumoto
+ * @author STAEKNUM
  * class of Excec.
  * First of all, you started this class.
  *

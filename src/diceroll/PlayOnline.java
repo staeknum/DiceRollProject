@@ -2,7 +2,7 @@ package diceroll;
 
 /**
  *
- * @author K.matsumoto
+ * @author STAEKNUM
  * bean Class for DiceProject.
  */
 public class PlayOnline {
