@@ -1,9 +1,9 @@
 package diceroll;
 /**
  *
- * @author W010_NP00762AL
+ * @author STAEKNUM
  * Rolling Dice Method
- *
+ *ダイスロールのメソッド定義。ランダムメソッドを実行しているだけ。
  */
 
 public class Roll implements DiceRoll {
