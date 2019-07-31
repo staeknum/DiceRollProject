@@ -16,7 +16,6 @@
 		request.getAttribute("DiceType");
 		request.getAttribute("countDiceQty");
 		try {
-			//for (int i = 0; i < 2; i++) {
 			if ((request.getAttribute("DiceType") != null) && (request.getAttribute("countDiceQty") != null)) {
 				/**
 				*FWしてきた値がnullでないかのチェック。
@@ -30,7 +29,6 @@
 
 	<%
 		PlayOnline p = new PlayOnline();
-
 				StringBuilder resultSb = new StringBuilder();
 				int inty = Integer.parseInt(strTy);
 				int inqt = Integer.parseInt(strQt);
@@ -39,13 +37,10 @@
 				out.println("<p>" + resultSb + "</p>");
 	%>
 	<p>
-
 		<%
 			} else { //End If
 					out.println("<p>Error</p>");
-
 				}
-
 			} catch (NullPointerException e) {
 				out.println("<p>ｶﾞｯ</p>");
 			} catch (NumberFormatException e) {
