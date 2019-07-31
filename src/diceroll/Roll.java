@@ -6,18 +6,13 @@ package diceroll;
  *ダイスロールのメソッド定義。ランダムメソッドを実行しているだけ。
  */
 
-public class Roll implements DiceRoll {
+public class Roll {
 
 	public byte roll() {
 		return 0;
 	}
-
 	public int rollingForQty(int dot) {
-
 		int six =  (int)((Math.random() * dot) + 1);
-
 		return six;
-
 	}
-
 }
