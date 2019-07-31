@@ -36,13 +36,13 @@ public class Page {
 
 	public static String DB_Dr() {
 		// MySQL用JDBCドライバの完全修飾クラス名を定義する。
-		final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+		final String JDBC_DRIVER = "ドライバクラス名";
 		return JDBC_DRIVER;
 	}
 
 	public static String Book() {
 		// 接続するMySQLデータベースのURLを定義する。
-		final String DB_URL ="java:/comp/env/jdbc/book";
+		final String DB_URL ="データベースURL";
 
 		return DB_URL;
 	}
